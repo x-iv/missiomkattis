@@ -1,0 +1,2 @@
+word = "VELKOMIN!"
+print(word)
