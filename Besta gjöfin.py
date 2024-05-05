@@ -1,5 +1,12 @@
+# Read input
 n = int(input())
+guests = []
 for _ in range(n):
-    g_name = input()
-    g_num = int(input)
-print(max(g_num))
+    name, fun = input().split()
+    guests.append((name, int(fun)))
+
+# Find the guest with the highest fun value
+max_fun = max(guests, key=lambda x: x[1])
+
+# Output the name of the guest with the highest fun value
+print(max_fun[0])
