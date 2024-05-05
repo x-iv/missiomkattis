@@ -1,6 +1,5 @@
 word = input()
-if "iss" in word:
+if "ss" in word:
     print("hiss")
 else:
     print("no hiss")
-    
